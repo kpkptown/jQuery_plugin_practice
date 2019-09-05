@@ -32,3 +32,30 @@ img{
     width: 250px;
     height: 400px;
 }
+.hover_text{
+    position: absolute;
+    z-index: 3;
+    width: 50%;
+    margin-left: 25%;
+    top:53rem;
+    display: flex;
+    justify-content: space-between ;
+}
+.hover_on_text_left {
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    height: 50px;
+    margin-left: 15%;
+    background-color: yellow;
+    display: none;
+}
+.hover_on_text_right{
+    position: absolute;
+    z-index: 3;
+    width: 200px;
+    height: 50px;
+    margin-left: 95%;
+    background-color: yellow;
+    display: none;
+}

@@ -29,3 +29,55 @@ $(function () {
       }
     });
 });
+$(function () {
+    $('#human_png_left').hover(
+        function() {
+            $('.hover_on_text_left').textillate({
+                loop: false,	// ループ繰り返し
+                minDisplayTime: 1000,	// アニメーションの間隔時間
+                initialDelay: 0,	// アニメーション開始までの遅延時間
+                autoStart: true,	// アニメーションの自動スタート
+        
+              // 開始時のアニメーション設定
+              in: {
+                // エフェクトの指定
+                effect: 'fadeIn', 
+                // 遅延時間の指数
+                delayScale: 1.5,  
+                // 文字ごとの遅延時間
+                delay: 50,  
+                // true:アニメーションをすべての文字に同時適用
+                sync: false, 
+                // true:文字表示がランダムな順に表示される
+                shuffle: false
+              }
+            });
+        },
+    );
+});
+$(function () {
+    $('#human_png_right').hover(
+        function() {
+            $('.hover_on_text_right').textillate({
+                loop: false,	// ループ繰り返し
+                minDisplayTime: 1000,	// アニメーションの間隔時間
+                initialDelay: 0,	// アニメーション開始までの遅延時間
+                autoStart: true,	// アニメーションの自動スタート
+
+              // 開始時のアニメーション設定
+              in: {
+                // エフェクトの指定
+                effect: 'fadeIn', 
+                // 遅延時間の指数
+                delayScale: 1.5,  
+                // 文字ごとの遅延時間
+                delay: 50,  
+                // true:アニメーションをすべての文字に同時適用
+                sync: false, 
+                // true:文字表示がランダムな順に表示される
+                shuffle: false
+              }
+            });
+        },
+    );
+});
