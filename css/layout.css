@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+}
+.title{
+    position: absolute;
+    z-index: 1;
+    width: 100%;
+    height: 1rem;
+    text-align: center;
+    top:42rem;
+    font-size: 6rem;
+}
+.animation{
+    position: relative;
+    background-color: aqua;
+}
